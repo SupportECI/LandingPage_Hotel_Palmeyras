@@ -150,25 +150,6 @@ export default function Galeria() {
 
       </div>
 
-      {/* Lightbox */}
-      {imagenActiva && (
-        <div className="fixed inset-0 bg-black/90 flex items-center justify-center z-50 p-6">
-
-          <button
-            className="absolute top-8 right-8 text-white"
-            onClick={() => setImagenActiva(null)}
-          >
-            <X size={34} />
-          </button>
-
-          <img
-            src={imagenActiva}
-            className="max-w-6xl max-h-[90vh] rounded-2xl"
-          />
-
-        </div>
-      )}
-
     </section>
   );
 }
