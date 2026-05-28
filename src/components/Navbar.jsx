@@ -1,5 +1,6 @@
 'use client'
 
+import logoPalmeyras from '../assets/palmeyras - Don bosco.png'
 import { useState } from 'react'
 import {
   Dialog,
@@ -104,21 +105,15 @@ export default function Navbar() {
       >
 
         {/* LOGO */}
-
         <div className="flex lg:flex-1">
-
-          <a href="#" className="-m-1.5 p-1.5">
-
+          <a href="/" className="flex items-center -m-1.5 p-1.5">
             <span className="sr-only">Palmeyras Inn</span>
-
             <img
-              src="./src/assets/Palmeyras_.svg"
+              src={logoPalmeyras}
               alt="Palmeyras Inn logo"
-              className="h-12 w-auto"
+              className="h-12 md:h-18 w-auto object-contain scale-[2] md:scale-[2.5] origin-left ml-4 drop-shadow-[0_0_2px_rgba(0,0,0,0.8)]"
             />
-
           </a>
-
         </div>
 
 

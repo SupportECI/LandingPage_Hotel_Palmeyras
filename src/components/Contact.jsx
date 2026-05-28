@@ -31,7 +31,7 @@ export default function Contacto() {
               <Phone className="text-red-600 mt-1" size={20} />
               <div>
                 <p className="font-semibold text-gray-900">Teléfono</p>
-                <p className="text-gray-500">+52 961 000 0000</p>
+                <p className="text-gray-500">+52 961 701 5000</p>
               </div>
             </div>
 
@@ -39,7 +39,7 @@ export default function Contacto() {
               <Mail className="text-red-600 mt-1" size={20} />
               <div>
                 <p className="font-semibold text-gray-900">Correo</p>
-                <p className="text-gray-500">contacto@palmeyrasinn.com</p>
+                <p className="text-gray-500">Palmeyrasinn@gmail.com</p>
               </div>
             </div>
 

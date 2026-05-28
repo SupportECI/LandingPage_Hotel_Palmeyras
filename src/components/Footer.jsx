@@ -1,5 +1,7 @@
 'use client'
 
+import logo from '../assets/palmeyras - Don bosco.png'
+
 import { motion } from 'framer-motion'
 import {
   MapPin,
@@ -54,7 +56,9 @@ export default function Footer() {
 
             <div className="mb-6">
 
-              <img src="./src/assets/Palmeyras_.svg" width={90} alt="Logo_Palmeyras" />
+              <img src={logo} width={90} alt="Logo_Palmeyras" 
+              className="h-12 md:h-18 w-auto object-contain scale-[2] md:scale-[2.5] origin-left ml-4 drop-shadow-[0_0_2px_rgba(0,0,0,0.8)]"
+              />
 
               <p className="text-sm text-gray-500 mt-3 leading-relaxed">
                 Vive la experiencia hotelera más exclusiva con lujo,
@@ -73,7 +77,7 @@ export default function Footer() {
                 <MapPin className="w-5 h-5 text-red-500" />
 
                 <p className="text-sm">
-                  Av. Principal 123, Capital
+                  17A. Pte. Sur 749, Xamaipak, Tuxtla Gutiérrez, Chis
                 </p>
 
               </div>
@@ -83,10 +87,10 @@ export default function Footer() {
                 <Phone className="w-5 h-5 text-red-500" />
 
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+529617015000"
                   className="text-sm hover:text-gray-900 transition"
                 >
-                  +1 (234) 567-890
+                  +52 (961) 701 5000
                 </a>
 
               </div>
@@ -96,10 +100,10 @@ export default function Footer() {
                 <Mail className="w-5 h-5 text-red-500" />
 
                 <a
-                  href="mailto:info@palmeyrasinn.com"
+                  href="mailto:Palmeyrasinn@gmail.com"
                   className="text-sm hover:text-gray-900 transition"
                 >
-                  info@palmeyrasinn.com
+                  Palmeyrasinn@gmail.com
                 </a>
 
               </div>
@@ -115,7 +119,8 @@ export default function Footer() {
 
                 <a
                   key={i}
-                  href="#"
+                  href="https://www.facebook.com/share/14cDzw7zaAf/?mibextid=wwXIfr"
+                  target='_blank'
                   className="
                   inline-flex items-center justify-center
                   w-10 h-10

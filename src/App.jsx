@@ -17,13 +17,10 @@ function App() {
       <Navbar />
       <HeroSection />
       <RoomsSection />
-      <BentoSecion />
       <Galery />
       <Ubicacion />
       <Us />
       <Contact />
-      <Stats />
-      <FAQ />
       <Footer />
       <WhatsAppButton />
     </>

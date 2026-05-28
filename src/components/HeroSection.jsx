@@ -4,14 +4,18 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ArrowRight } from 'lucide-react'
 
+import habitacion from '../assets/habitacion.webp'
+import room1 from '../assets/room1.webp'
+import room2 from '../assets/room2.webp'
+
 const HeroSection = () => {
   const [index, setIndex] = useState(0)
   const [isVisible, setIsVisible] = useState(false)
 
   const slides = [
-    "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=1920",
-    "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&q=80&w=1920",
-    "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=1920"
+    habitacion,
+    room1,
+    room2,
   ]
 
   useEffect(() => {

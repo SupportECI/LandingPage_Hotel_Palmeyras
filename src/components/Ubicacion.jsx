@@ -1,4 +1,6 @@
 import { MapPin, Navigation, Car, Coffee, Building } from "lucide-react";
+import fachada from '../assets/fachada.webp'
+
 
 export default function Ubicacion() {
   return (
@@ -21,7 +23,7 @@ export default function Ubicacion() {
           {/* Imagen */}
           <div className="relative">
             <img
-              src="./src/assets/room.jpg"
+              src={fachada}
               alt="Ubicación hotel"
               className="rounded-3xl shadow-xl object-cover w-full h-[420px]"
             />
@@ -87,7 +89,7 @@ export default function Ubicacion() {
 
             {/* Botón */}
             <a
-              href="https://maps.google.com"
+              href="https://www.google.com/travel/hotels/s/7pQeqjDVbJCUFtEEA"
               target="_blank"
               className="inline-block mt-10 bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-xl transition"
             >

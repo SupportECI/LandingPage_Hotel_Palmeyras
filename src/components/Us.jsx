@@ -1,4 +1,6 @@
 import { Users, Star, Clock } from "lucide-react";
+import us from '../assets/us.webp'
+
 
 export default function Nosotros() {
   return (
@@ -9,7 +11,7 @@ export default function Nosotros() {
         <div className="relative">
 
           <img
-            src="./src/assets/room.jpg"
+            src={us}
             alt="Hotel Palmeyras"
             className="rounded-3xl object-cover h-[460px] w-full shadow-xl"
           />
